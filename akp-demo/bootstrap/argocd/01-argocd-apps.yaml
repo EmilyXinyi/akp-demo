@@ -87,7 +87,7 @@ spec:
     targetRevision: HEAD
     path: oom-demo/
   destination:
-    name: demo
+    name: mac2
     namespace: akp-demo
   syncPolicy:
     syncOptions:
