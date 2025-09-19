@@ -8,11 +8,13 @@ metadata:
 spec:
   project: akp-demo
   source:
-    repoURL: https://github.com/akuity/akp-demo.git
+    repoURL: https://github.com/emilyxinyi/akp-demo.git
     targetRevision: HEAD
     path: akp-demo/bootstrap/kargo
   destination:
-    name: kargo
+    name: kargo1
   syncPolicy:
     automated:
       prune: true
+    syncOptions:
+    - CreateNamespace=true
